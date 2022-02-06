@@ -10,7 +10,6 @@ docker-compose up -d
 
 This is docker-comporse.yml
 ```yml
-  GNU nano 4.8                                                                      docker-compose.yml                                                                      已變更  
 version: '2'
 
 volumes:
