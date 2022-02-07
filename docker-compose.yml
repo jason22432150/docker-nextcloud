@@ -7,7 +7,7 @@ volumes:
 services:
   db:
     image: mariadb
-    container_name: cloudnext-db
+    container_name: nextcloud-db
     restart: always
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW --innodb-file-per-table=1 --skip-innodb-read-only-compressed
     volumes:
